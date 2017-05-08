@@ -1,0 +1,3 @@
+<div *ngIf="countrys.length" style="width: 98%; margin: 0 auto">
+  <country-item class="test" *ngFor="let country of countrys | filter: term" [country]="country" style="float: left;"></country-item>
+</div>

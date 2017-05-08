@@ -1,0 +1,7 @@
+<header class="ui tabular menu" style="background: forestgreen">
+  <a class="item" [routerLink]="['']" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">{{menu1}}</a>
+  <a class="item" [routerLink]="['country']" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">{{menu2}}</a>
+</header>
+<main>
+  <router-outlet></router-outlet>
+</main>
